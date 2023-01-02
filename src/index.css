@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Courgette&family=DM+Sans:wght@400;700&family=Inter:wght@400;500&family=Kumbh+Sans:wght@400;700&family=Montserrat:ital,wght@1,700&family=Outfit&family=Roboto:wght@300;400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "DM Sana", sans-serif;
+  @apply text-gray-500;
+}
